@@ -2,9 +2,17 @@
 
 ## Komponen
 
-### Scene (Felix)
+### Scene
 
-Scene mengatur apa saja yang harus ditampilkan oleh three.js dan di mana. Scene menampung objek, pencahayaan, dan kamera
+Scene mengatur apa saja yang harus ditampilkan oleh three.js dan di mana. Scene menampung objek, pencahayaan, dan kamera. Diibaratkan sebagai dimensi dari suatu object yang akan di render oleh browser. Hasilnya adalah elemen HTML ```<canvas></canvas>```.
+
+Langkah pertama dalam membuat scene adalah dengan memanggil fungsi ```SCENE``` pada THREE.js. Pada fungsi scene ini terdapat properti ```.backgroud``` untuk memberi gambar background yang akan di render pertama kali program berjalan. Secara default adalah ```null```.
+
+```js
+
+var scene = new THREE.Scene();
+
+```
 
 ### __Camera__
 
@@ -28,7 +36,7 @@ Kamera ini merupakan turunan dari kelas camera sehingga memiliki properti umum y
 
 Mode proyeksi ini dirancang untuk meniru cara mata manusia melihat. Metode ini adalah metode proyeksi yang paling umum digunakan untuk rendering 3D.
 
-```
+```js
 // var camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
 var camera = new THREE.PerspectiveCamera( 45, width / height, 1, 1000 );
 scene.add( camera );
@@ -109,11 +117,11 @@ var cube = new THREE.Mesh( geometry, material );
 
 ## Implementasi
 
-### Rendering (reza)
+### Rendering
 
 yang ada requestanimationframe
 
-### Transformasi (reza)
+### Transformasi
 
 Termasuk yang ada rotation dll2
 
