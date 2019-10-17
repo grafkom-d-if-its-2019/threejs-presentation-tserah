@@ -22,10 +22,20 @@ Kamera yang menggunakan proyeksi ortografis. Pada mode proyeksi ini, ukuran obje
 
 #### 3. Perspective Camera
 
-Atribut
+Kamera yang menggunakan proyeksi perspektif.
 
-- Field of view
-- Aspect ratio
+Mode proyeksi ini dirancang untuk meniru cara mata manusia melihat. Metode ini adalah metode proyeksi yang paling umum digunakan untuk rendering 3D.
+
+```
+// var camera = new THREE.PerspectiveCamera(fov, aspect, near, far);
+var camera = new THREE.PerspectiveCamera( 45, width / height, 1, 1000 );
+scene.add( camera );
+```
+
+Perspective Camera memiliki beberapa atribut :
+
+- Field of view : merupakan tingkat pemandangan yang terlihat pada layar pada saat tertentu. FOV nilainya dinyatakan dalam derajat.
+- Aspect ratio : 
 - Near clip
 - Far clip
 
