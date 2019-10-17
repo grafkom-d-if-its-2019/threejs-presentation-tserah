@@ -81,6 +81,18 @@ var geometry = new THREE.BoxGeometry( 1, 1, 1 );
 
 ### Material (Bagas)
 
+Material merupakan sebuah class abstract yang mendeskripsikan tampilan sebuah objek.
+
+Contoh Material yang sudah ada di three.js:
+
+- `THREE.MeshBasicMaterial`
+- `THREE.ShaderMaterial`
+- `THREE.RawShader`
+
+```javascript
+var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+```
+
 
 ### Mesh (felix)
 
