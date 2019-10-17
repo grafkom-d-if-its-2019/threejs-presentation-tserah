@@ -45,6 +45,12 @@ Terdapat beberapa geometri yang sudah *predefined* oleh three.js:
 
 dan lain-lain. Masing-masing turunan dari `THREE.Geometry` di atas memiliki constructor dengan parameter yang berbeda.
 
+```javascript
+var geometry = new THREE.BoxGeometry( 1, 1, 1 );
+```
+
+
+
 ### Material (Bagas)
 
 Material merupakan sebuah class abstract yang mendeskripsikan tampilan sebuah objek.
