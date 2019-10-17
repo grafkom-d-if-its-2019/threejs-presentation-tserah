@@ -47,7 +47,7 @@ Objek yang lebih dekat dari nilai near clip atau lebih jauh dari nilai far clip 
 
 Merupakan dual perspective camera yang dapat digunakan untuk efek seperti 3D Anaglyph atau Parallax Barrier.
 
-### Geometri (Setya)
+### Geometri
 
 Geometri merupakan sebuah representasi objek 3D yang didefinisikan oleh beberapa `THREE.Vector3` atau `THREE.Color`
 
@@ -79,7 +79,7 @@ var geometry = new THREE.BoxGeometry( 1, 1, 1 );
 
 
 
-### Material (Bagas)
+### Material
 Material merupakan sebuah class abstract yang mendeskripsikan tampilan sebuah objek.
 
 Contoh Material yang sudah ada di three.js:
@@ -92,7 +92,7 @@ Contoh Material yang sudah ada di three.js:
 var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
 ```
 
-### Mesh (Bagas)
+### Mesh
 Mesh adalah sebuah object yang mengaplikasikan material pada suatu geometry, yang selanjutnya dapat kita masukkan pada scene. Juga merupakan base dari kelas lainnya seperti `SkinnedMesh` (Contoh Mesh yang sudah ada di three.js).
 
 Constructor
