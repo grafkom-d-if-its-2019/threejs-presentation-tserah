@@ -2,7 +2,7 @@
 
 ## Komponen
 
-### Scene
+### Scene 
 
 Scene mengatur apa saja yang harus ditampilkan oleh three.js dan di mana. Scene menampung objek, pencahayaan, dan kamera
 
@@ -33,7 +33,7 @@ Deskripsi mesh
 
 ## Implementasi
 
-### Rendering
+### Rendering (reza)
 
 yang ada requestanimationframe
 
