@@ -49,3 +49,6 @@ https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
 
 **jangan lupa lihat panel sebelah kiri, itu ada resource banyak**
 
+
+
+z
