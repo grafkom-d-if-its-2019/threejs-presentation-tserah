@@ -43,7 +43,7 @@ Terdapat beberapa geometri yang sudah *predefined* oleh three.js:
 - `THREE.TubeGeometry`
 - `THREE.ShereGeometry`
 
-dan lain-lain. Masing-masing turunan dari `THREE.Geometry` di atas memiliki constructur dengan parameter yang berbeda.
+dan lain-lain. Masing-masing turunan dari `THREE.Geometry` di atas memiliki constructor dengan parameter yang berbeda.
 
 ### Material (Bagas)
 
