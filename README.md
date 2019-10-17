@@ -22,7 +22,9 @@ Kamera yang menggunakan proyeksi ortografis. Pada mode proyeksi ini, ukuran obje
 
 #### 3. Perspective Camera
 
-Kamera yang menggunakan proyeksi perspektif.
+Kamera yang menggunakan proyeksi perspektif. 
+
+Kamera ini merupakan turunan dari kelas camera sehingga memiliki properti umum yang sama seperti pada kelas camera.
 
 Mode proyeksi ini dirancang untuk meniru cara mata manusia melihat. Metode ini adalah metode proyeksi yang paling umum digunakan untuk rendering 3D.
 
@@ -35,9 +37,11 @@ scene.add( camera );
 Perspective Camera memiliki beberapa atribut :
 
 - Field of view : merupakan tingkat pemandangan yang terlihat pada layar pada saat tertentu. FOV nilainya dinyatakan dalam derajat.
-- Aspect ratio : 
+- Aspect ratio
 - Near clip
 - Far clip
+
+Objek yang lebih dekat dari nilai near clip atau lebih jauh dari nilai far clip tidak akan dirender.
 
 #### 4. Stereo Camera
 
