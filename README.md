@@ -2,11 +2,11 @@
 
 ## Komponen
 
-### Scene 
+### Scene (Felix)
 
 Scene mengatur apa saja yang harus ditampilkan oleh three.js dan di mana. Scene menampung objek, pencahayaan, dan kamera
 
-### Camera
+### Camera (Lia)
 
 Camera merupakan sebuah objek abstraksi representasi kamera. Ada empat jenis tipe kamera yang disediakan secara *default*: CubeCamera, OrthographicCamera, **PerspectiveCamera**, StereoCamera
 
@@ -19,15 +19,15 @@ Atribut
 - Near clip
 - Far clip
 
-### Geometri
+### Geometri (Setya)
 
 Deskripsi geometri
 
-### Material
+### Material (Bagas)
 
 Deskripsi material
 
-### Mesh
+### Mesh (felix)
 
 Deskripsi mesh
 
@@ -37,7 +37,7 @@ Deskripsi mesh
 
 yang ada requestanimationframe
 
-### Transformasi
+### Transformasi (reza)
 
 Termasuk yang ada rotation dll2
 
@@ -48,3 +48,4 @@ https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene
 
 
 **jangan lupa lihat panel sebelah kiri, itu ada resource banyak**
+
